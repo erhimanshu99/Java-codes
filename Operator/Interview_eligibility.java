@@ -5,7 +5,7 @@ public class Interview_eligibility {
     {
         
         int qcode=4; int scode=1;
-        int yop=2023; float perc=58.3f;
+        int yop=2024; float perc=80.3f;
         if ((qcode==1|| qcode==4) && (scode==1||scode==6||scode==2)&& (yop==2022||yop==2023||yop==2024)&&(perc>=55)) 
         {
             System.out.println("Eligible for interview");
